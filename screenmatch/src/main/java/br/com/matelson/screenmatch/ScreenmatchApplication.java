@@ -1,6 +1,8 @@
 package br.com.matelson.screenmatch;
 
+import br.com.matelson.screenmatch.model.DadosSerie;
 import br.com.matelson.screenmatch.service.ConsumoApi;
+import br.com.matelson.screenmatch.service.ConverteDados;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,7 +17,10 @@ public class ScreenmatchApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		var consumoApi = new ConsumoApi();
-		var json = consumoApi.obterDados("https://www.omdbapi.com/?t=gilmore+girls&Season=1&apikey=6585022c");
+		var json = consumoApi.obterDados("https://www.omdbapi.com/?t=gilmore+girls&apikey=6585022c");
 		System.out.println(json);
+		ConverteDados conversor = new ConverteDados();
+		DadosSerie dados = conversor.obterDados(json, DadosSerie.class);
+		System.out.println(dados);
 	}
 }
