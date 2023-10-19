@@ -7,3 +7,11 @@ C
 screenmatch/pom.xml,b\c\bc97989223f0d8aefd19e122a5fbffa09baed1e4
 {
 Kscreenmatch/src/main/java/br/com/matelson/screenmatch/model/DadosSerie.java,c\5\c5a2aff8b133e10577395e17f4db1b0f97fb866b
+Å
+Qscreenmatch/src/main/java/br/com/matelson/screenmatch/service/IConverteDados.java,d\d\dd1af3bdf54225f3d346034b5089d0d24287700e
+Ä
+Pscreenmatch/src/main/java/br/com/matelson/screenmatch/service/ConverteDados.java,7\b\7b471540178288252edeb3a789e05553753aac0b
+~
+Nscreenmatch/src/main/java/br/com/matelson/screenmatch/model/DadosEpisodio.java,3\c\3c25fe8db6aa3456fd4bac261330283ba7e3cb45
+
+Oscreenmatch/src/main/java/br/com/matelson/screenmatch/model/DadosTemporada.java,6\7\67c62413108c32b2813b30439a5671a221541480
