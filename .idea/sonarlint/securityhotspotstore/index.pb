@@ -15,3 +15,5 @@ Pscreenmatch/src/main/java/br/com/matelson/screenmatch/service/ConverteDados.jav
 Nscreenmatch/src/main/java/br/com/matelson/screenmatch/model/DadosEpisodio.java,3\c\3c25fe8db6aa3456fd4bac261330283ba7e3cb45
 
 Oscreenmatch/src/main/java/br/com/matelson/screenmatch/model/DadosTemporada.java,6\7\67c62413108c32b2813b30439a5671a221541480
+~
+Nscreenmatch/src/main/java/br/com/matelson/screenmatch/principal/Principal.java,4\5\4508b834ddf8231ae17cfaaf795c796f866edc29
