@@ -1,0 +1,12 @@
+
+t	java:S116"SRename this field "ENDERECO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÕÅùÿÿÿÿ8 Òœä´1
+n	java:S116"RRename this field "API_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°öÊÂ8 Òœä´1
+C
+java:S1170"!Make this final field static too.(ÕÕÅùÿÿÿÿ8 Òœä´1
+>
+java:S1170"!Make this final field static too.(°öÊÂ8 Òœä´1
+U
+java:S1854"8Remove this useless assignment to local variable "json".(ø‰ö8¬Òœä´1
+G	java:S106"+Replace this use of System.out by a logger.(¡¹ù8­Òœä´1
+F
+java:S1481")Remove this unused "json" local variable.(ø‰ö8°Òœä´1
