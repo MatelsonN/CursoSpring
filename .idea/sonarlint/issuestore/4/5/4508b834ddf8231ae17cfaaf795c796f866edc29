@@ -1,14 +1,20 @@
 
-t	java:S116"SRename this field "ENDERECO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÕÅùÿÿÿÿ8Å¹™êµ1
-n	java:S116"RRename this field "API_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°öÊÂ8Æ¹™êµ1
+t	java:S116"SRename this field "ENDERECO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÕÅùÿÿÿÿ8íèìˆ¶1
+n	java:S116"RRename this field "API_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°öÊÂ8íèìˆ¶1
 C
-java:S1170"!Make this final field static too.(ÕÕÅùÿÿÿÿ8Æ¹™êµ1
+java:S1170"!Make this final field static too.(ÕÕÅùÿÿÿÿ8íèìˆ¶1
 >
-java:S1170"!Make this final field static too.(°öÊÂ8Æ¹™êµ1
-G	java:S106"+Replace this use of System.out by a logger.(¡¹ù8Ğ¹™êµ1
+java:S1170"!Make this final field static too.(°öÊÂ8íèìˆ¶1
+G	java:S106"+Replace this use of System.out by a logger.(¡¹ù8öèìˆ¶1
 Y
-java:S1117"=Rename "conversor" which hides the field declared at line 16.(ˆ½¸8Ñ¹™êµ1
-G	java:S106"+Replace this use of System.out by a logger.(¨Å“‹8Éİšêµ1
-L	java:S106%"+Replace this use of System.out by a logger.(î´’ùÿÿÿÿ8™ù£êµ1
+java:S1117"=Rename "conversor" which hides the field declared at line 18.(ˆ½¸8÷èìˆ¶1
+G	java:S106"+Replace this use of System.out by a logger.(¨Å“‹8÷èìˆ¶1
+L	java:S106&"+Replace this use of System.out by a logger.(î´’ùÿÿÿÿ8úèìˆ¶1
+]	java:S125("<This block of commented-out lines of code should be removed.(äÍ¼™üÿÿÿÿ8üèìˆ¶1
+G	java:S106."+Replace this use of System.out by a logger.(Ó°¶æ8ıèìˆ¶1
+i
+java:S1128"LRemove this unused import 'br.com.matelson.screenmatch.model.DadosEpisodio'.(«Üìƒ8şèìˆ¶1
+Y
+java:S1128	"7Remove this unused import 'javax.sound.midi.Soundbank'.(µÊøÿÿÿÿ8şèìˆ¶1
 J
-java:S1068"-Remove this unused "conversor" private field.(ì‹ÀÕ8Ô¹™êµ1
+java:S1068"-Remove this unused "conversor" private field.(ì‹ÀÕ8şèìˆ¶1
