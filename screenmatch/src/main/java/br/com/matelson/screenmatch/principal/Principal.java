@@ -1,10 +1,12 @@
 package br.com.matelson.screenmatch.principal;
 
+import br.com.matelson.screenmatch.model.DadosEpisodio;
 import br.com.matelson.screenmatch.model.DadosSerie;
 import br.com.matelson.screenmatch.model.DadosTemporada;
 import br.com.matelson.screenmatch.service.ConsumoApi;
 import br.com.matelson.screenmatch.service.ConverteDados;
 
+import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -14,7 +16,6 @@ public class Principal {
     private Scanner leitura = new Scanner(System.in);
     private ConsumoApi consumo = new ConsumoApi();
     private ConverteDados conversor = new ConverteDados();
-
     private final String ENDERECO = "https://www.omdbapi.com/?t=";
     private final String API_KEY = "&apikey=a5d19064";
 
@@ -35,6 +36,8 @@ public class Principal {
             temporadas.add(dadosTemporada);
         }
         temporadas.forEach(System.out::println);
+        
+        temporadas.forEach(t -> t.episodios().forEach(e -> System.out.println(e.titulo())));
     }
 
 }
