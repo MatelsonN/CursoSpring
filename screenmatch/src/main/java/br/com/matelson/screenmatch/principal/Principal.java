@@ -8,8 +8,10 @@ import br.com.matelson.screenmatch.service.ConverteDados;
 
 import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class Principal {
 
@@ -36,8 +38,15 @@ public class Principal {
             temporadas.add(dadosTemporada);
         }
         temporadas.forEach(System.out::println);
-        
+
         temporadas.forEach(t -> t.episodios().forEach(e -> System.out.println(e.titulo())));
+
+        List<DadosEpisodio> dadosEpisodios = temporadas.stream()
+                .flatMap(t -> t.episodios().stream())
+                .collect(Collectors.toList());
+
+        dadosEpisodios.stream()
+                .sorted(Comparator.comparing(DadosEpisodio::avaliacao).reversed(3))
     }
 
 }
