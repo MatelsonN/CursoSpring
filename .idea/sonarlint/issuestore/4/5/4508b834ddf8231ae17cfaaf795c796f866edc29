@@ -1,20 +1,0 @@
-
-t	java:S116"SRename this field "ENDERECO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΥΥΕωÿÿÿÿ8νθμ¶1
-n	java:S116"RRename this field "API_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°φΚΒ8νθμ¶1
-C
-java:S1170"!Make this final field static too.(ΥΥΕωÿÿÿÿ8νθμ¶1
->
-java:S1170"!Make this final field static too.(°φΚΒ8νθμ¶1
-G	java:S106"+Replace this use of System.out by a logger.(΅Ήω8φθμ¶1
-Y
-java:S1117"=Rename "conversor" which hides the field declared at line 18.(½Έ8χθμ¶1
-G	java:S106"+Replace this use of System.out by a logger.(¨Ε“‹8χθμ¶1
-L	java:S106&"+Replace this use of System.out by a logger.(ξ΄’ωÿÿÿÿ8ϊθμ¶1
-]	java:S125("<This block of commented-out lines of code should be removed.(δΝΌ™όÿÿÿÿ8όθμ¶1
-G	java:S106."+Replace this use of System.out by a logger.(Σ°¶ζ8ύθμ¶1
-i
-java:S1128"LRemove this unused import 'br.com.matelson.screenmatch.model.DadosEpisodio'.(«άμƒ8ώθμ¶1
-Y
-java:S1128	"7Remove this unused import 'javax.sound.midi.Soundbank'.(µΚψÿÿÿÿ8ώθμ¶1
-J
-java:S1068"-Remove this unused "conversor" private field.(μ‹ΐΥ8ώθμ¶1
