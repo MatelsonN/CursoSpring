@@ -1,0 +1,21 @@
+
+t	java:S116"SRename this field "ENDERECO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÕÅùÿÿÿÿ8Òµ¡·1
+n	java:S116"RRename this field "API_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°öÊÂ8Òµ¡·1
+C
+java:S1170"!Make this final field static too.(ÕÕÅùÿÿÿÿ8Óµ¡·1
+>
+java:S1170"!Make this final field static too.(°öÊÂ8Óµ¡·1
+G	java:S106"+Replace this use of System.out by a logger.(¡¹ù8èµ¡·1
+Y
+java:S1117"=Rename "conversor" which hides the field declared at line 20.(ˆ½¸8êµ¡·1
+G	java:S106"+Replace this use of System.out by a logger.(¨Å“‹8ìµ¡·1
+L	java:S106("+Replace this use of System.out by a logger.(î´’ùÿÿÿÿ8õµ¡·1
+G	java:S106*"+Replace this use of System.out by a logger.(Ó°¶æ8ùµ¡·1
+o
+java:S6204."RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8ûµ¡·1
+L	java:S1060"+Replace this use of System.out by a logger.(è†´ùÿÿÿÿ8ÿµ¡·1
+L	java:S1065"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8‰®¢·1
+Y
+java:S1128	"7Remove this unused import 'javax.sound.midi.Soundbank'.(µÊøÿÿÿÿ8¶¡·1
+J
+java:S1068"-Remove this unused "conversor" private field.(ì‹ÀÕ8‚¶¡·1
