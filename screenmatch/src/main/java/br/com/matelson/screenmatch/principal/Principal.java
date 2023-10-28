@@ -45,8 +45,12 @@ public class Principal {
                 .flatMap(t -> t.episodios().stream())
                 .collect(Collectors.toList());
 
+        System.out.println("\n Top 5 episódios:");
         dadosEpisodios.stream()
-                .sorted(Comparator.comparing(DadosEpisodio::avaliacao).reversed(3))
+                .filter(e -> !e.avaliacao().equalsIgnoreCase("N/A"))
+                .sorted(Comparator.comparing(DadosEpisodio::avaliacao).reversed())
+                .limit(5)
+                .forEach(System.out::println);
     }
 
 }
