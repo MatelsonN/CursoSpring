@@ -17,3 +17,5 @@ Nscreenmatch/src/main/java/br/com/matelson/screenmatch/model/DadosEpisodio.java
 Oscreenmatch/src/main/java/br/com/matelson/screenmatch/model/DadosTemporada.java,6\7\67c62413108c32b2813b30439a5671a221541480
 ~
 Nscreenmatch/src/main/java/br/com/matelson/screenmatch/principal/Principal.java,4\5\4508b834ddf8231ae17cfaaf795c796f866edc29
+y
+Iscreenmatch/src/main/java/br/com/matelson/screenmatch/model/Episodio.java,0\c\0c23b382ce370e20720ffbc1d42bf633b872c130
