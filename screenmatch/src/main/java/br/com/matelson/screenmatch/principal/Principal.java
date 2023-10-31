@@ -3,10 +3,10 @@ package br.com.matelson.screenmatch.principal;
 import br.com.matelson.screenmatch.model.DadosEpisodio;
 import br.com.matelson.screenmatch.model.DadosSerie;
 import br.com.matelson.screenmatch.model.DadosTemporada;
+import br.com.matelson.screenmatch.model.Episodio;
 import br.com.matelson.screenmatch.service.ConsumoApi;
 import br.com.matelson.screenmatch.service.ConverteDados;
 
-import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -51,6 +51,13 @@ public class Principal {
                 .sorted(Comparator.comparing(DadosEpisodio::avaliacao).reversed())
                 .limit(5)
                 .forEach(System.out::println);
+
+        List<Episodio> episodios = temporadas.stream()
+                .flatMap(t -> t.episodios().stream()
+                        .map(d -> new Episodio(t.numero(), d))
+                ).collect(Collectors.toList());
+
+        episodios.forEach(System.out::println);
     }
 
 }
