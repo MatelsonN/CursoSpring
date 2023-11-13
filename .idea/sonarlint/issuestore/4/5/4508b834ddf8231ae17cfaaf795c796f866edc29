@@ -1,22 +1,24 @@
 
-t	java:S116"SRename this field "ENDERECO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÕÅùÿÿÿÿ8…Š®¾¸1
-n	java:S116"RRename this field "API_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°öÊÂ8…Š®¾¸1
+t	java:S116"SRename this field "ENDERECO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÕÅùÿÿÿÿ8™Ë¾Õ¼1
+n	java:S116"RRename this field "API_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°öÊÂ8šË¾Õ¼1
 C
-java:S1170"!Make this final field static too.(ÕÕÅùÿÿÿÿ8†Š®¾¸1
+java:S1170"!Make this final field static too.(ÕÕÅùÿÿÿÿ8šË¾Õ¼1
 >
-java:S1170"!Make this final field static too.(°öÊÂ8†Š®¾¸1
-G	java:S106"+Replace this use of System.out by a logger.(¡¹ù8”Š®¾¸1
+java:S1170"!Make this final field static too.(°öÊÂ8›Ë¾Õ¼1
+G	java:S106"+Replace this use of System.out by a logger.(¡¹ù8ÀË¾Õ¼1
 Y
-java:S1117"=Rename "conversor" which hides the field declared at line 20.(ˆ½¸8•Š®¾¸1
-G	java:S106"+Replace this use of System.out by a logger.(¨Å“‹8˜Š®¾¸1
-L	java:S106("+Replace this use of System.out by a logger.(î´’ùÿÿÿÿ8Š®¾¸1
-G	java:S106*"+Replace this use of System.out by a logger.(Ó°¶æ8ŸŠ®¾¸1
+java:S1117"=Rename "conversor" which hides the field declared at line 22.(ˆ½¸8ÂË¾Õ¼1
+G	java:S106 "+Replace this use of System.out by a logger.(¨Å“‹8ÄË¾Õ¼1
+L	java:S106*"+Replace this use of System.out by a logger.(î´’ùÿÿÿÿ8ËË¾Õ¼1
+G	java:S106,"+Replace this use of System.out by a logger.(Ó°¶æ8ÎË¾Õ¼1
 o
-java:S6204."RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8 Š®¾¸1
-L	java:S1060"+Replace this use of System.out by a logger.(è†´ùÿÿÿÿ8£Š®¾¸1
-L	java:S1065"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8§Š®¾¸1
+java:S62040"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8ĞË¾Õ¼1
+L	java:S1062"+Replace this use of System.out by a logger.(è†´ùÿÿÿÿ8ÓË¾Õ¼1
+L	java:S1067"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8×Ë¾Õ¼1
 o
-java:S6204:"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(†öúš8˜™Å¾¸1
-L	java:S106<"+Replace this use of System.out by a logger.(Åì“¬ıÿÿÿÿ8ÂïÅ¾¸1
+java:S6204<"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(†öúš8ØË¾Õ¼1
+L	java:S106>"+Replace this use of System.out by a logger.(Åì“¬ıÿÿÿÿ8İË¾Õ¼1
+G	java:S106@"+Replace this use of System.out by a logger.(¿æ¹Ì8ŞË¾Õ¼1
+L	java:S106J"+Replace this use of System.out by a logger.(ÔÛùøıÿÿÿÿ8ãË¾Õ¼1
 J
-java:S1068"-Remove this unused "conversor" private field.(ì‹ÀÕ8«Š®¾¸1
+java:S1068"-Remove this unused "conversor" private field.(ì‹ÀÕ8åË¾Õ¼1
