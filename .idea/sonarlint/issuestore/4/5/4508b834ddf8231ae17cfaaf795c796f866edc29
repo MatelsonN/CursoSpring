@@ -1,24 +1,33 @@
 
-t	java:S116"SRename this field "ENDERECO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÕÅùÿÿÿÿ8™Ë¾Õ¼1
-n	java:S116"RRename this field "API_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°öÊÂ8šË¾Õ¼1
+t	java:S116"SRename this field "ENDERECO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÕÅùÿÿÿÿ8»¬¬İ¿1
+n	java:S116"RRename this field "API_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°öÊÂ8¼¬¬İ¿1
 C
-java:S1170"!Make this final field static too.(ÕÕÅùÿÿÿÿ8šË¾Õ¼1
+java:S1170"!Make this final field static too.(ÕÕÅùÿÿÿÿ8¼¬¬İ¿1
 >
-java:S1170"!Make this final field static too.(°öÊÂ8›Ë¾Õ¼1
-G	java:S106"+Replace this use of System.out by a logger.(¡¹ù8ÀË¾Õ¼1
+java:S1170"!Make this final field static too.(°öÊÂ8¼¬¬İ¿1
+d
+java:S1854+"BRemove this useless assignment to local variable "dadosEpisodios".(˜ áÅşÿÿÿÿ8Å¬¬İ¿1
+G	java:S106"+Replace this use of System.out by a logger.(¡¹ù8Æ¬¬İ¿1
 Y
-java:S1117"=Rename "conversor" which hides the field declared at line 22.(ˆ½¸8ÂË¾Õ¼1
-G	java:S106 "+Replace this use of System.out by a logger.(¨Å“‹8ÄË¾Õ¼1
-L	java:S106*"+Replace this use of System.out by a logger.(î´’ùÿÿÿÿ8ËË¾Õ¼1
-G	java:S106,"+Replace this use of System.out by a logger.(Ó°¶æ8ÎË¾Õ¼1
+java:S1117"=Rename "conversor" which hides the field declared at line 19.(ˆ½¸8Ç¬¬İ¿1
+G	java:S106"+Replace this use of System.out by a logger.(¨Å“‹8È¬¬İ¿1
+L	java:S106'"+Replace this use of System.out by a logger.(î´’ùÿÿÿÿ8Í¬¬İ¿1
+G	java:S106)"+Replace this use of System.out by a logger.(Ó°¶æ8Ï¬¬İ¿1
 o
-java:S62040"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8ĞË¾Õ¼1
-L	java:S1062"+Replace this use of System.out by a logger.(è†´ùÿÿÿÿ8ÓË¾Õ¼1
-L	java:S1067"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8×Ë¾Õ¼1
+java:S6204-"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8Ğ¬¬İ¿1
+U
+java:S1481+"3Remove this unused "dadosEpisodios" local variable.(˜ áÅşÿÿÿÿ8Ò¬¬İ¿1
+X	java:S125/"<This block of commented-out lines of code should be removed.(Óø›ò8Ò¬¬İ¿1
 o
-java:S6204<"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(†öúš8ØË¾Õ¼1
-L	java:S106>"+Replace this use of System.out by a logger.(Åì“¬ıÿÿÿÿ8İË¾Õ¼1
-G	java:S106@"+Replace this use of System.out by a logger.(¿æ¹Ì8ŞË¾Õ¼1
-L	java:S106J"+Replace this use of System.out by a logger.(ÔÛùøıÿÿÿÿ8ãË¾Õ¼1
+java:S62049"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(†öúš8Ó¬¬İ¿1
+L	java:S106;"+Replace this use of System.out by a logger.(Åì“¬ıÿÿÿÿ8Ö¬¬İ¿1
+]	java:S125="<This block of commented-out lines of code should be removed.(¨ÁçÓùÿÿÿÿ8×¬¬İ¿1
+X	java:S125I"<This block of commented-out lines of code should be removed.(É‹šä8×¬¬İ¿1
+G	java:S106]"+Replace this use of System.out by a logger.(½ï—¸8Şà­İ¿1
+R
+java:S1128
+"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8äñ¯İ¿1
+\
+java:S1128"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8äñ¯İ¿1
 J
-java:S1068"-Remove this unused "conversor" private field.(ì‹ÀÕ8åË¾Õ¼1
+java:S1068"-Remove this unused "conversor" private field.(ì‹ÀÕ8Ú¬¬İ¿1
